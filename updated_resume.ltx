@@ -1,0 +1,230 @@
+\documentclass[letterpaper,11pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage[inline]{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.7in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+\vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+\item\small{
+{#1 \vspace{-2pt}}
+} 
+}
+
+\newcommand{\classesList}[4]{
+\item\small{
+{#1 #2 #3 #4 \vspace{-2pt}}
+}
+}
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{-2pt}\item
+\begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+\textbf{#1} & \textbf{\small #2} \\
+\textit{\small#3} & \textit{\small #4} \\
+\end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+\item
+\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+\textit{\small#1} & \textit{\small #2} \\
+\end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+\item
+\begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+\small#1 & \textbf{\small #2}\\
+\end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%% RESUME STARTS HERE %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+%----------HEADING----------
+\begin{center}
+\begin{center}
+{\Huge \scshape Don Dang} \\[1pt]
+\small \raisebox{-0.1\height}{\faPhone\ (817)-307-6088} ~ \href{mailto:donphuocdang@gmail.com}{\raisebox{-0.2\height}{\faEnvelope\ \underline{donphuocdang@gmail.com}}} ~ 
+\href{https://www.linkedin.com/in/don-dang/}{\raisebox{-0.2\height}{\faLinkedin\ \underline{https://www.linkedin.com/in/don-dang/}}} ~ 
+{\raisebox{-0.2\height}{\faGithub}}
+\href{https://github.com/dondangp}{\raisebox{-0.2\height}{\underline{github.com/dondangp}}}
+\end{center}
+\end{center}
+\vspace{-20pt}
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{The University of Texas at Arlington}{August 2021 -- December 2024}
+{Bachelor of Science in Honors Computer Science}{GPA: \textbf{3.95}}
+\resumeItemListStart
+\resumeItem{Awards: UTA Dean's List (2021 -- Present), Honors in Computer Science}
+\resumeItem{Coursework: Object-Oriented Programming, Data Structures and Algorithms, Fundamentals of Software Engineering}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+% \resumeItem{Relevant Coursework: Object-Oriented Programming (Java), Data Structures and Algorithms, Discrete Structures}
+
+\vspace{-20pt}
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+\small{\item{
+\textbf{Languages}{: JavaScript, TypeScript, C/C++, Java, Python, HTML/CSS, MySQL, Kotlin, C\#, .NET, VBA, ABAP} \\
+\textbf{Web \& App Development}{: React, React Native, AngularJS, REST APIs, Node.js, Express, Springboot} \\
+\textbf{Developer Tools}{: WCF, Docker, Postman, Azure, Jira, Agile, Linux/UNIX, Git/GitHub, Figma, Android Studio, VSCode} \\
+\textbf{Databases \& Data Processing}{: MongoDB, Firebase, pandas, BeautifulSoup4, NumPy, Flask} \\
+}}
+\end{itemize}
+\vspace{-23pt}
+%-----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Software Engineer Intern}{May 2023 -- Present}
+{Bell Flight}{Fort Worth, Texas}
+\resumeItemListStart
+\resumeItem{Developed an API with \textbf{C\#} \& \textbf{AngularJS} to generate "Analyst Work" tab for Bell's Lab Manager Web Application.}
+\resumeItem{Full-scale migrated and debugged an existing application, \textbf{Engineering Labs} using \textbf{AngularJS, C\#, \& TypeScript}.}
+\vspace{-13pt}
+\resumeItem{Coded an \textbf{automated bot}, which supports operations of the finance team by generating monthly finance reports. Reduced task time from 8 hours to 25 minutes. Bot runs 45 times a year - projected time savings is 842 hours per year.
+\vspace{-5pt}
+\resumeItem{Developed a \textbf{Python} program utilizing \textbf{pandas} to automate specific data extraction from multiple XML files within a directory. Transfers the extracted data to a \textbf{Data Frame}, dynamically adjusting column widths in the Excel file, which successfully exports the \textbf{Data Frame} to Excel.}
+}
+\resumeItem{Coded a Web Scraper utilizing \textbf{Python} with \textbf{Selenium} library, which automated tasks to download files dynamically.}
+\resumeItemListEnd
+\resumeSubheading
+{Software Engineer}{March 2023 -- Present}
+{Pluto Learning} {Arlington, Texas}
+\resumeItemListStart
+\resumeItem{Founding Software Engineer at start-up, \textbf{Pluto Learning}, driving the development and implementation of software.}
+\resumeItem{Developed the homepage of Pluto Learning using \textbf{React, HTML, CSS, JavaScript}. - www.plutolearning.com}
+\resumeItem{Currently implementing the app of Pluto Learning using \textbf{React Native}, which will be deployed on the App/Play store.}
+\resumeItemListEnd
+\resumeSubheading
+{Software Engineer Intern}{October 2022 -- January 2023}
+{VK Consultant Group, LLC}{Houston, Texas}
+\resumeItemListStart
+\resumeItem{Implemented dynamic components using \textbf{React} for VK Career Conversation, LLC website. Designed with \textbf{Canva}
+}
+\resumeItem{Developed a podcast app called \textbf{LKwithVal} using \textbf{React Native}, which was hosted on App Store and Play Store. }
+\vspace{5pt}
+\resumeSubHeadingListEnd
+\vspace{-16pt}
+\resumeSubheading
+{Artificial Intelligence Research Assistant}{May 2022 -- Present}
+{Software Engineering Research Center}{Arlington, Texas}
+\resumeItemListStart
+\resumeItem{Implemented a  sketching app using partial screening to predict and search for mobile UI designs with \textbf{100\% accuracy} utilizing \textbf{React} with a team of Ph.D computer scientists.}
+\resumeItem{Implemented extensions for web application \textbf{PSDoodle}: drag and drop \& computer vision features.}
+\resumeItem{Developed and designed UI/UX using Figma \& translated to dynamic \& responsive web components for \textbf{PSDoodle} with \textbf{React, HTML, CSS, JavaScript.}}
+\resumeItemListEnd
+\vspace{-15pt}
+\vspace{10pt}
+\resumeSubheading
+{Web Developer}{May 2022 -- August 2022}
+{Martyrs Catholic Vietnamese Church}{Arlington, Texas}
+\resumeItemListStart
+\resumeItem{Modified and updated the church’s homepage \& advertisement page using \textbf{React, HTML, CSS, JavaScript}.}
+\resumeItem{Utilized \textbf{BootStrap} to make advertisement websites compatible and responsive for mobile phone users.}
+\resumeItemListEnd
+\vspace{-15pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+\vspace{-10pt}
+\resumeSubHeadingListStart
+\resumeProjectHeading
+{\textbf{ACM UTA Web Application} $|$ \emph{React, HTML, CSS, JavaScript}}{January 2023 -- Present}
+\resumeItemListStart
+\resumeItem{Developed responsive image slider featuring the university’s ACM directors utilizing \textbf{React, HTML, CSS, JavaScript}.}
+\vspace{-13pt}
+\resumeItem{Designed \textbf{UI/UX} in Figma and \textbf{React website} using TypeScript with navbar \& notifications.}
+\resumeItem{Utilized Promises to handle API requests efficiently, ensuring timely updates and fetching real-time information.}
+\resumeItemListEnd
+\vspace{-15pt}
+\resumeProjectHeading
+{\textbf{Blazian - Live Currency Converter} $|$ \emph{React, Node, CSS, HTML, Figma, Java}}{April 2023 -- May 2023}
+\resumeItemListStart
+\resumeItem{Lead a team of 5 and developed a currency converter android application with a team using Android Studios (Java) }
+\resumeItem{Converts over 160+ currencies worldwide, which includes an inflation calculator.}
+\resumeItem{Designed an aesthetic \textbf{UI wireframe} using Figma, incorporating \textbf{dynamic React components} like buttons, form, and hover, with responsive CSS, featuring techniques like media-queries, keyframes for animations, and box-sizing.}
+\resumeItem{Technologies and API’s: \textbf{v6 Exchange Rate API, Google Maps API, Google Analytics API, and AWS API}.}
+\resumeItemListEnd 
+\vspace{-14pt}
+          \vspace{-13pt}
+        \vspace{5pt}
+    \resumeSubHeadingListEnd
+\vspace{-5pt}
+\vspace{-13pt}
+
+\vspace{5pt}
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+
+\end{document}
